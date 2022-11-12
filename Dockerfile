@@ -21,5 +21,5 @@ RUN curl -fsSL http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
     && make \
     && make install
 
-RUN pip install TA-Lib jupyter pandas matplotlib numpy yfinance requests
+RUN python3 -m pip install TA-Lib jupyter pandas matplotlib numpy yfinance requests
 
